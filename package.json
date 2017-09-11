@@ -1,0 +1,22 @@
+{
+  "name": "hexo-tag-qiniu",
+  "version": "0.1.0",
+  "description": "Plugin for hexo to insert images using qiniu url in production mode and insert images using relative url in dev mode",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linx4200/hexo-tag-qiniu.git"
+  },
+  "keywords": [
+    "hexo",
+    "hexo-plugin"
+  ],
+  "author": "liuxinran1008@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/linx4200/hexo-tag-qiniu/issues"
+  },
+  "homepage": "https://github.com/linx4200/hexo-tag-qiniu#readme",
+  "dependencies": {
+  }
+}
