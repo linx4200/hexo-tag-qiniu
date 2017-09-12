@@ -6,7 +6,7 @@ hexo.extend.tag.register('qiniu', function(args) {
     return '';
   }
 
-  const name = args[1];
+  const name = args.slice(1).join(' ');
   let url = `/${this.path}${source}`
 
   if(hexo.env && hexo.env.env === 'production' && hexo.config.qiniu && hexo.config.qiniu.urlPrefix) {
